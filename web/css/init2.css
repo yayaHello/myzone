@@ -1,0 +1,48 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+#layout{
+    width: 960px ;
+    margin: 0 auto ;
+}
+#banner{
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px ;
+    border: 2px solid black;
+}
+#banner_img li{
+    float: left;
+    list-style-type: none;
+}
+#index{
+    position: absolute;
+    right: 8px ;
+    bottom: 8px ;
+}
+#index li{
+    float: left;
+    width: 16px ;
+    height: 16px ;
+    text-align: center;
+    line-height: 16px ;
+    border-radius: 5px ;
+    border:1px solid #FF7300 ;
+    background: white;
+    list-style: none;
+    margin-left: 8px ;
+    cursor: pointer;
+}
+.clearfix:after{
+    content: "" ;
+    height: 0px ;
+    display: block;
+    clear:both ;
+}
+.on
+{
+    background:#FF7300 ;
+}
