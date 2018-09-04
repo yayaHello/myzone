@@ -53,7 +53,6 @@
 <div class="y103"><img src="images/aa.png"></div>
 <%
 ResultSet rs=conn.executeQuery("select * from mood");//statement执行sql语句并复制给结果
-
 %>
 <div class="y102">
     <marquee   direction="up" scrollamount="2">

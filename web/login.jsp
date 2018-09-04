@@ -23,13 +23,11 @@
             <div id="change_margin_1">
                 <input class="user" type="text" name="user" id="user" placeholder= "请输入用户名"onblur="oBlur_1()" onfocus="oFocus_1()">
             </div>
-            <!-- input��valueΪ��ʱ�������� -->
             <p id="remind_1"></p>
             <div id="change_margin_2">
                 <input class="password" type="password" name="password" id="password"  placeholder="请输入密码" onblur="oBlur_2()" onfocus="oFocus_2()">
             </div>
 
-            <!-- input��valueΪ��ʱ�������� -->
             <p id="remind_2"></p>
             <div id="change_margin_3">
                 <input class="content-form-signup" type="submit" value="登陆" onclick="submitTest()">
@@ -37,6 +35,6 @@
         </form>
     </div>
 </div>
-<script src="js/common_form_test.js"></script>
+<script src="js/common_form_test.js" charset="UTF-8"></script>
 </body>
 </html>

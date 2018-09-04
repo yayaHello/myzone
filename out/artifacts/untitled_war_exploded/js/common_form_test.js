@@ -1,4 +1,4 @@
-// 全局变量a和b，分别获取用户框和密码框的value值
+﻿// 全局变量a和b，分别获取用户框和密码框的value值
 // var a = document.getElementsByTagName("input")[0].value;
 // var b = document.getElementsByTagName("input")[1].value;
 
@@ -6,7 +6,7 @@
 function oBlur_1(user) {
     var a=document.getElementById("user").value;
     if (!a) { //用户框value值为空
-        document.getElementById("remind_1").innerHTML = "please input username";
+        document.getElementById("remind_1").innerHTML = "请输入用户名";
         document.getElementById("change_margin_1").style.marginBottom = 1 + "px";
     } else { //用户框value值不为空
 
@@ -26,7 +26,7 @@ function oFocus_1() {
 function oBlur_2(password) {
     var b=document.getElementById("password").value;
     if (!b) { //密码框value值为空
-        document.getElementById("remind_2").innerHTML = "please input password";
+        document.getElementById("remind_2").innerHTML = "请输入密码";
         document.getElementById("change_margin_2").style.marginBottom = 1 + "px";
         document.getElementById("change_margin_3").style.marginTop = 2 + "px";
     } else { //密码框value值不为空
@@ -50,9 +50,9 @@ function submitTest(user,password) {
     var a=document.getElementById("user").value;
     var b=document.getElementById("password").value;
     if (!a && !b) { //用户框value值和密码框value值都为空
-        document.getElementById("remind_1").innerHTML = "please input username";
+        document.getElementById("remind_1").innerHTML = "请输入用户名";
         document.getElementById("change_margin_1").style.marginBottom = 1 + "px";
-        document.getElementById("remind_2").innerHTML = "please input password";
+        document.getElementById("remind_2").innerHTML = "请输入密码";
         document.getElementById("change_margin_2").style.marginBottom = 1 + "px";
         document.getElementById("change_margin_3").style.marginTop = 2 + "px";
         return false; //只有返回true表单才会提交

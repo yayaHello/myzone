@@ -23,7 +23,7 @@
             <div class="lifetime">
                 <ul id="tag">
                     <li>
-                        <hr>2004<br><span>上海</span>
+                        <hr>2004<br><span>常州</span>
                     </li>
                     <li>
                         <hr>2015<br><span>苏州</span>
